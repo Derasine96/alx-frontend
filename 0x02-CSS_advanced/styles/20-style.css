@@ -464,7 +464,7 @@ a:active {
 }
 
 .section-title {
-  font-family: var(--font-family-title);
+  font-family: var(--nav-item-font-family);
   font-size: var(--font-size-xx-large);
   font-weight: var(--font-weight-bold);
   margin: var(--section-title-margin);
@@ -511,7 +511,7 @@ a:active {
 
 .nav .nav-link {
   display: block;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
