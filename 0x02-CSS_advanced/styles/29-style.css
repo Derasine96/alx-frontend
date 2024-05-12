@@ -433,20 +433,20 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a[href]:not([href=""]) {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
   font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
   text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
   background-color: var(--color-light-grey);
 }
 
@@ -670,6 +670,6 @@ ul.row {
 }
 
 .nav .nav-item:hover .nav-link::before {
-    background-color: var(--color-primary);
-    width: 100%;
+  background-color: var(--color-primary);
+  width: 100%;
 }
