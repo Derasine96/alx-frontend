@@ -738,7 +738,6 @@ ul.row {
 .card-testimonial .card-quote {
   position: relative;
 }
-
 .card-testimonial .card-quote::before {
   content: "\201c";
   position: absolute;
